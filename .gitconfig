@@ -10,3 +10,5 @@
 	c = !git add --all && git commit -m
 	l = !git log --pretty=format:'%C(green)%h %C(white)| %C(cyan)%cn: %C(white)%s | %C(yellow)%cr %C(red)%D'
 	p = !git push
+	r = !git restore --staged
+	a = !git add
