@@ -8,6 +8,7 @@
 [alias]
 	s = !git status -s
 	c = !git add --all && git commit -m
+	cs = !git commit -m
 	l = !git log --pretty=format:'%C(green)%h %C(white)| %C(cyan)%cn: %C(white)%s | %C(yellow)%cr %C(red)%D'
 	ph = !git push
 	pl = !git pull
