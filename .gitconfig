@@ -5,6 +5,8 @@
 	helper = YOUR_HELPER
 [core]
 	editor = YOUR_EDITOR
+[push]
+	followTags = true
 [alias]
 	s = !git status -s
 	c = !git add --all && git commit -m
