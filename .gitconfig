@@ -16,3 +16,4 @@
 	pl = !git pull
 	r = !git restore --staged
 	a = !git add
+	t = !git tag -a
