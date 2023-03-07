@@ -16,5 +16,5 @@
 	pl = !git pull
 	r = !git restore --staged
 	a = !git add
-	t = !git tag -a
+	t = !sh -c 'git tag -a "$1" -m "$2"' -- "$1" "$2"
 	cp = !git cherry-pick
