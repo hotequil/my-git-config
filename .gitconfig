@@ -18,3 +18,4 @@
 	a = !git add
 	t = !git tag
 	cp = !git cherry-pick
+	sh = !git show
